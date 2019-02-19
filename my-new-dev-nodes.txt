@@ -1,0 +1,34 @@
+Disk /dev/sda: 32 GiB, 34359738368 bytes, 67108864 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x88397c01
+
+Device     Boot   Start      End  Sectors Size Id Type
+/dev/sda1  *       2048  2099199  2097152   1G 83 Linux
+/dev/sda2       2099200 67108863 65009664  31G 8e Linux LVM
+
+
+Disk /dev/sdb: 512 MiB, 536870912 bytes, 1048576 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x6195d1cc
+
+Device     Boot  Start     End Sectors  Size Id Type
+/dev/sdb1         2048  262144  260097  127M 83 Linux
+/dev/sdb2       264192 1048575  784384  383M 83 Linux
+
+
+Disk /dev/mapper/fedora-root: 29 GiB, 31079792640 bytes, 60702720 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/fedora-swap: 2.1 GiB, 2202009600 bytes, 4300800 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
